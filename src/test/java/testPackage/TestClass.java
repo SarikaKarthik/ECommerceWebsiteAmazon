@@ -103,6 +103,7 @@ public class TestClass extends BaseClass {
 		logger.info("test completed on one browser");
 //		Thread.sleep(1000);
 //		closeBrowser();
+		System.out.println("Closing the browser");
 		//driver.quit();
 	}
 
