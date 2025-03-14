@@ -28,6 +28,7 @@ if(browser.equals("chrome"))
 	Thread.sleep(1000);
 	driver.manage().window().maximize();
 	driver.manage().timeouts().implicitlyWait(Duration.ofMillis(1000));
+	System.out.println("Chrome is Selected");
 }
 else if(browser.equals("firefox")) {
 	driver=new FirefoxDriver();
